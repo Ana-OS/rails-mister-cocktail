@@ -1,0 +1,39 @@
+<div class="container col-12 wrappper">
+  <div class="container col-12 ">
+    <div class="d-flex justify-content-end ">
+      <div>
+        <%= form_tag root_path, method: :get do %>
+        <%= text_field_tag :query,
+          params[:query],
+          class: "form-control",
+          placeholder: "Find a Cocktail"%>
+      </div>
+      <div>
+        <%= submit_tag "Search", class: "btn btn-primary" %>
+      </div>
+      <% end %>
+    </div>
+  </div>
+  <div class="title">The Cocktail Diary</div>
+  <div class="btn btn-ghost"><%=link_to "Create a new cocktail", new_cocktail_path%></div>
+  <img class="background_img" src="https://res.cloudinary.com/dhjbcdzxb/image/upload/v1604689824/cocktail_background_zs9vrl.jpg" alt="">
+
+  <div class="container col-10 cocktails-list">
+    <h1 class="list-title">All Cocktails</h1>
+    <div class="list d-flex flex-wrap ">
+      <%@cocktails.each do |cocktail|%>
+        <div class="card col-4 cocktail-cards-list">
+          <div class="mt-2 mb-5 cocktail-card">
+
+            <div class="cocktail-name">
+              <%=link_to cocktail.name, cocktail_path(cocktail)%></div>
+             <%= link_to cocktail_path(cocktail) do %>
+             <%= cl_image_tag cocktail.photo.key, height: 400, width: 300 %>
+            <% end %>
+            </div>
+          <%= link_to "Add a Review",  new_cocktail_review_path(cocktail), class: 'btn-ghost-cocktail' %>
+        </div>
+      <%end%>
+    </div>
+  </div>
+</div>

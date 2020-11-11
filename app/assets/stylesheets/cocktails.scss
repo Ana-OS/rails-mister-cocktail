@@ -1,0 +1,31 @@
+// Place all the styles related to the cocktails controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: https://sass-lang.com/
+.cocktail-profile{
+  background: linear-gradient(90deg, rgba(247,229,208,0.6124824929971988) 0%, rgba(235,255,218,0.5648634453781513) 87%);
+  height:120vh;
+}
+.cocktail-wrapper{
+  position:relative;
+}
+.cocktail-name{
+  font-size:30px;
+  text-align:center;
+  color:#4A4A4A;
+  margin-bottom:20px;
+  font-family: 'Nunito', sans-serif;
+  letter-spacing:3px;
+  word-spacing:10px;
+}
+
+span{
+  display:inline-block;
+  padding:0 10px;
+}
+
+
+.back-btn{
+  position:absolute;
+  bottom:50px;
+  right:250px;
+}

@@ -1,0 +1,107 @@
+// Specific CSS for your home-page
+// Specific CSS for your home-page
+.list{
+  list-style:none;
+}
+body{
+   background:#F4F4F4;
+}
+
+.wrapper{
+  position:relative;
+}
+
+.background_img{
+  width:100%;
+  height:100%;
+  opacity:0.3;
+  position:relative;
+}
+
+.list-title{
+  text-align:center;
+  color:#4A4A4A;
+  margin-bottom:20px;
+  font-family: 'Nunito', sans-serif;
+  letter-spacing:3px;
+  word-spacing:10px;
+}
+
+
+.title{
+  z-index:1;
+  width:1000px;
+  text-align:center;
+  color:#ee4000;
+  font-size:150px;
+  font-family: 'Amatic SC', cursive;
+  position: absolute;
+  margin:auto;
+  top:10vh;
+  left:50%;
+  transform: translateX(-50%);
+}
+
+.btn-ghost{
+  z-index:1;
+  position:absolute;
+  top:60vh;
+  left:50%;
+  transform: translateX(-50%);
+  background-color: #ee4000;
+  color:white;
+  padding: 8px 24px;
+  border-radius: 50px;
+  font-weight: lighter;
+  opacity: 0.6;
+  transition: opacity 0.3s ease;
+
+  a{
+    color:white !important;
+    text-decoration:none;
+  }
+}
+
+.cocktails-list{
+  position:absolute;
+  top:85vh;
+  left:50%;
+  transform: translateX(-50%);
+}
+.cocktail-card{
+  position:relative;
+  margin:0 auto;
+  font-family: 'Nunito', sans-serif;
+}
+
+.cocktail-cards-list{  background:#FFFAFA;}
+
+.cocktail-name{
+  text-align:center;
+  font-size:18px;
+  a{
+    color:#4A4A4A !important;
+    text-decoration: none;
+  }
+}
+
+.btn-ghost-cocktail{
+  position:absolute;
+  border:2px solid #ee4000;
+  bottom:0;
+  right:8%;
+  background-color: white;
+  color:#ee4000;
+  padding: 8px 24px;
+  border-radius: 50px;
+  font-weight: lighter;
+  opacity: 0.6;
+  transition: opacity 0.3s ease;
+
+  a:hover{
+    color:#ee4000 !important;
+    text-decoration:none !important;
+  }
+}
+
+

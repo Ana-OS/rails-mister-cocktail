@@ -1,0 +1,13 @@
+<div class="container col-6 mt-5">
+  <div class="d-flex flex-wrap p-2">
+  <% current_user.reviews.each do |review| %>
+  <ul class="list-unstyled mt-5">
+    <h4>Review for <%= review.cocktail.name%> </h4>
+    <li><%= review.content %></li>
+    <li class="mt-5"><%= link_to "Delete Review", review_path(review), method: :delete %></li>
+    <li><%= link_to "Back", root_path%></li>
+  </ul>
+  <% end %>
+  </div>
+</div>
+

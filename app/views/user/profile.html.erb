@@ -1,0 +1,16 @@
+<div class="container col-4 mt-5 user-profile">
+  <div class="user">
+  <h2> Hey <%= current_user.first_name.capitalize %>🍸</h2>
+  <div class="user_info">
+    <p>First Name</p><div class="info"><%= current_user.first_name.capitalize %></div>
+    <p>Last Name</p><div class="info"><%= current_user.last_name.capitalize %></div>
+    <p>Email</p><div class="info"><%= current_user.email %></div>
+    <div class="profile-btns d-flex">
+      <div class="back_btn mr-4">
+        <%= link_to "Back",  root_path %>
+      </div>
+      <div class="edit_btn">
+      <%= link_to "Edit Profile",  edit_user_registration_path %>
+      </div>
+    </div>
+</div>
