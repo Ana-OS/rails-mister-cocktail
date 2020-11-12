@@ -3,12 +3,12 @@ class CocktailsController < ApplicationController
   before_action :find_cocktail, only: [:show, :edit, :update, :destroy]
 
   def index
-
     if params[:query].present?
       @cocktails = Cocktail.where("name ILIKE ?", "%#{params[:query]}%")
     else
       @cocktails = Cocktail.all
     end
+
   end
 
   def show
