@@ -10,9 +10,10 @@ class DosesController < ApplicationController
    @cocktail = Cocktail.find(params[:cocktail_id])
    @dose = Dose.new(dose_params)
    @dose.cocktail = @cocktail
+   @user = current_user
 
    if @dose.save
-    redirect_to cocktail_path(@cocktail)
+    redirect_to  cocktails_user_index_path
     else
       render :new
     end

@@ -24,7 +24,7 @@ class CocktailsController < ApplicationController
     @cocktail = Cocktail.new(cocktail_params)
     @cocktail.user = current_user
     if @cocktail.save
-      redirect_to cocktail_path(@cocktail)
+      redirect_to cocktails_user_index_path
     else
      render :new
     end
