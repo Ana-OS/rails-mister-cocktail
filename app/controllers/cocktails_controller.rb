@@ -24,7 +24,7 @@ class CocktailsController < ApplicationController
     @cocktail = Cocktail.new(cocktail_params)
     @cocktail.user = current_user
     if @cocktail.save
-      redirect_to cocktails_user_index_path
+      redirect_to cocktails_user_index_path( anchor: "anchor-#{@cocktail.id}")
     else
      render :new
     end
@@ -34,7 +34,7 @@ class CocktailsController < ApplicationController
 
   def update
     if @cocktail.update(cocktail_params)
-      redirect_to root_path
+      redirect_to cocktails_user_index_path( anchor: "anchor-#{@cocktail.id}")
     else
       render :new
     end
