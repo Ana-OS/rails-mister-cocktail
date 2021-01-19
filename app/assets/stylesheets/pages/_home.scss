@@ -1,5 +1,3 @@
-// Specific CSS for your home-page
-// Specific CSS for your home-page
 .list{
   list-style:none;
 }
@@ -74,7 +72,10 @@ body{
   font-family: 'Nunito', sans-serif;
 }
 
-.cocktail-cards-list{  background:#FFFAFA;}
+.cocktail-cards-list{
+  background:#FFFAFA;
+  height:600px;
+}
 
 .cocktail-name{
   text-align:center;
@@ -97,11 +98,12 @@ body{
   font-weight: lighter;
   opacity: 0.6;
   transition: opacity 0.3s ease;
+  margin-bottom:40px;
+  text-decoration:none !important;
 
-  a:hover{
-    color:#ee4000 !important;
-    text-decoration:none !important;
-  }
+    a:hover{
+      color:#ee4000;
+    }
 }
 
 

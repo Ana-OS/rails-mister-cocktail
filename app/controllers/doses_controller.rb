@@ -13,7 +13,7 @@ class DosesController < ApplicationController
    @user = current_user
 
    if @dose.save
-    redirect_to  cocktails_user_index_path
+    redirect_to  cocktails_user_index_path( anchor: "anchor-#{@cocktail.id}")
     else
       render :new
     end
@@ -21,13 +21,12 @@ class DosesController < ApplicationController
 
   def edit
     @cocktail = Cocktail.find(params[:cocktail_id])
-
   end
 
   def update
     @cocktail = Cocktail.find(params[:cocktail_id])
     if @dose.update!(dose_params)
-      redirect_to cocktail_path(@cocktail)
+      redirect_to  cocktails_user_index_path( anchor: "anchor-#{@cocktail.id}")
     else
      render :new
     end
@@ -35,8 +34,9 @@ class DosesController < ApplicationController
 
 
   def destroy
+    @cocktail = Cocktail.find(params[:cocktail_id])
     @dose.destroy
-    redirect_to cocktail_path(@dose.cocktail)
+    redirect_to  cocktails_user_index_path( anchor: "anchor-#{@cocktail.id}")
   end
 
   private
