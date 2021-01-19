@@ -31,3 +31,5 @@ ing1 = Ingredient.create(name: "Mint leaves")
 ing2 = Ingredient.create(name: "Soda")
 
 puts "also created #{ing1.name} and #{ing2.name}"
+
+
