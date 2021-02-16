@@ -7,12 +7,12 @@
       </div>
       <div class="row cocktail-wrapper mb-3" style="border: 2px solid coral">
         <p id="anchor-<%= cocktail.id %>"></p>
-        <div class="d-flex flex-wrap col-sm-12 col-md-12 cocktail-card" style="border:1px solid blue">
+        <div class="d-flex flex-wrap col-sm-12 col-md-12 cocktail-card">
           <div class="col-4 ml-5 mt-5">
             <%= cl_image_tag cocktail.photo.key, width:300, height:400 %>
           </div>
           <div class="ingredients">
-            <table class="table table-bordered ml-5 mt-5 col-lg-6 col-sm-12 tabela" style="border:2px solid green">
+            <table class="table table-bordered mt-5 tabela">
               <div class="table">
               <tbody>
                 <thead>

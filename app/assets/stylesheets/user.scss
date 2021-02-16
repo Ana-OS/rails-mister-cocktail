@@ -161,8 +161,45 @@
   .ingredients{
     .tabela{
      // border:1px solid green;
-      width:500px;
+      width:500px !important;
       left:-18%;
+    }
+  }
+  .user-action-btns{
+    position:absolute;
+    left:20%;
+    top:10%;
+
+    .back{
+      margin-left:38px;
+    }
+    .edit{
+      margin-left:70px;
+    }
+    .delete{
+      margin-left:90px;
+    }
+  }
+  .dose-container{
+    margin-left:-20%;
+  }
+}
+
+@media screen and (max-width: 613px) {
+    .cocktail-card{
+    margin-top:100px;
+    margin-left:0;
+    img{
+      margin-top:-30%;
+      margin-left:20%;
+    }
+  }
+  .ingredients{
+    left:-20%;
+    .tabela{
+     // border:1px solid green;
+      width:450px !important;
+      left:-42%;
     }
   }
   .user-action-btns{
@@ -196,7 +233,7 @@
   .ingredients{
     .tabela{
      // border:1px solid green;
-      width:450px;
+      width:450px !important;
       left:-12%;
     }
   }
@@ -231,7 +268,7 @@
   .ingredients{
     .tabela{
      // border:1px solid green;
-      width:320px;
+      width:320px !important;
       left:-12%;
     }
   }
@@ -279,10 +316,12 @@
     }
   }
   .ingredients{
+      width:120px;
+
     .tabela{
      // border:1px solid green;
-      width:320px;
-      left:-12%;
+      width:120px !important;
+      left:-22%;
     }
   }
   .dose-container{
