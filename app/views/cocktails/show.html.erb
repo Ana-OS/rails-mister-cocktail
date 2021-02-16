@@ -3,11 +3,11 @@
     <div class="cocktail-name"><%= @cocktail.name %></div>
 
     <div class="row cocktail-wrapper" style="border: 2px solid coral">
-      <div class="d-flex flex-wrap col-sm-12 col-md-12">
+      <div class="d-flex flex-wrap col-10 col-sm-10 col-md-10">
         <div class="col-6 mt-5">
           <%= cl_image_tag @cocktail.photo.key, width:300, height:400 %>
         </div>
-        <table class="table table-bordered col-6 mt-5">
+        <table class="table table-bordered col-6 mt-5 cocktail-table ingredients">
           <tbody>
             <thead>
               <th>Ingredient</th>

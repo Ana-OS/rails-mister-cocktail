@@ -30,4 +30,53 @@ span{
   position:absolute;
   bottom:50px;
   right:250px;
+  transition: ease all .4s;
+}
+
+
+// media q.
+@media screen and (max-width: 768px) {
+  .back-btn{
+    position:absolute;
+    bottom:10px;
+    right:100px;
+    margin-bottom:20px;
+  }
+}
+@media screen and (max-width: 613px) {
+  .back-btn{
+    position:absolute;
+    bottom:10px;
+    right:100px;
+  }
+}
+@media screen and (max-width: 500px) {
+  .back-btn{
+    position:absolute;
+    bottom:-50px;
+    right:100px;
+  }
+}
+@media screen and (max-width: 375px) {
+  .back-btn{
+    position:absolute;
+    bottom:15px;
+    right:40px;
+  }
+}
+@media screen and (max-width: 320px) {
+  .cocktail-wrapper{
+    position:relative;
+
+    img{
+      width:250px;
+      height:350px;
+    }
+  }
+  .back-btn{
+    position:absolute;
+    bottom:10px;
+    right:70px;
+  }
+
 }
