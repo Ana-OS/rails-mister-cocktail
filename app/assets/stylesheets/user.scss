@@ -20,6 +20,14 @@
   }
 }
 
+.ingredients{
+  .tabela{
+ // border:1px solid green;
+  width:600px;
+  transition: ease all .4s;
+  }
+  transition: ease all .4s;
+}
 .user_info{
   p{
     border-bottom:1px solid coral;
@@ -31,6 +39,7 @@
   }
   .profile-btns{
     padding:30px 0;
+    transition: ease all .4s;
 
 
     .back_btn{
@@ -74,6 +83,40 @@
 
 
 // media q.
+@media screen and (max-width: 1024px) {
+  .cocktail-card{
+    margin-top:100px;
+    margin-left:0;
+    img{
+      margin-top:0;
+      margin-left:10%;
+    }
+    .ingredients{
+      .tabela{
+     // border:1px solid green;
+      width:600px;
+      }
+    }
+  }
+  .user-action-btns{
+    position:absolute;
+    left:25%;
+    top:10%;
+
+    .back{
+      margin-left:38px;
+    }
+    .edit{
+      margin-left:70px;
+    }
+    .delete{
+      margin-left:90px;
+    }
+  }
+  .dose-container{
+    margin-left:-10%;
+  }
+}
 @media screen and (max-width: 960px) {
   .cocktail-card{
     margin-top:100px;
@@ -115,6 +158,13 @@
       margin-left:20%;
     }
   }
+  .ingredients{
+    .tabela{
+     // border:1px solid green;
+      width:500px;
+      left:-18%;
+    }
+  }
   .user-action-btns{
     position:absolute;
     left:20%;
@@ -131,7 +181,7 @@
     }
   }
   .dose-container{
-    margin-left:-10%;
+    margin-left:-20%;
   }
 }
 @media screen and (max-width: 500px) {
@@ -141,6 +191,13 @@
     img{
       margin-top:-30%;
       margin-left:20%;
+    }
+  }
+  .ingredients{
+    .tabela{
+     // border:1px solid green;
+      width:450px;
+      left:-12%;
     }
   }
   .user-action-btns{
@@ -169,6 +226,13 @@
     img{
       margin-top:-30%;
       margin-left:-30%;
+    }
+  }
+  .ingredients{
+    .tabela{
+     // border:1px solid green;
+      width:320px;
+      left:-12%;
     }
   }
   .user-action-btns{
@@ -212,6 +276,13 @@
     }
     .delete{
       margin-left:90px;
+    }
+  }
+  .ingredients{
+    .tabela{
+     // border:1px solid green;
+      width:320px;
+      left:-12%;
     }
   }
   .dose-container{

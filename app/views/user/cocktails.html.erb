@@ -12,7 +12,8 @@
             <%= cl_image_tag cocktail.photo.key, width:300, height:400 %>
           </div>
           <div class="ingredients">
-            <table class="table table-bordered ml-5 mt-5 col-lg-6 col-sm-12">
+            <table class="table table-bordered ml-5 mt-5 col-lg-6 col-sm-12 tabela" style="border:2px solid green">
+              <div class="table">
               <tbody>
                 <thead>
                   <th>Ingredient</th>
@@ -35,6 +36,7 @@
                   </tr>
                 <% end %>
               </tbody>
+              </div>
             </table>
           </div>
           </div>
