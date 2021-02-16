@@ -1,3 +1,4 @@
+
 .list{
   list-style:none;
 }
@@ -7,6 +8,7 @@ body{
 
 .wrapper{
   position:relative;
+  width:150%;
 }
 
 .background_img{
@@ -107,3 +109,338 @@ body{
 }
 
 
+// media q.
+
+@media screen and (max-width: 1024px) {
+  .cocktails-column{
+    // border:2px solid red;
+    display:flex;
+    // flex-direction: column;
+    // width:100%;
+
+    img{
+      width:250px;
+      height:320px;
+    }
+  }
+  .card{
+    margin-bottom:30px;
+  }
+  .btn-ghost-cocktail{
+    right:20%;
+    bottom:-5%;
+  }
+
+
+}
+
+@media screen and (max-width: 960px) {
+  body{
+    width:100%;
+  }
+  .wrapper {
+    // border:1px solid red;
+    width:250vw;
+  }
+  .background_img{
+    width:120%;
+    margin-left:-10%;
+  }
+  .title{
+    font-size:70px;
+  }
+
+  .btn-ghost{
+    top:40vh;
+    img{
+      width:150%;
+    }
+  }
+
+  .cocktails-list{
+    position:absolute;
+    top:60vh;
+    left:60%;
+    // transform: translateX(-50%);
+    .list-title{
+      margin-left:-15%;
+    }
+    .cocktail-cards-list{
+      height:550px;
+
+      .cocktail-card{
+        height:550px;
+      }
+    }
+  }
+
+  .cocktails-column{
+    // border:2px solid red;
+    display:flex;
+    flex-direction: column;
+    width:100%;
+
+    img{
+      width:300px;
+      height:370px;
+    }
+  }
+  .card{
+    margin-bottom:30px;
+  }
+  .btn-ghost-cocktail{
+    right:35%;
+    bottom:-5%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  body{
+    width:120%;
+  }
+  .wrapper {
+    // border:1px solid red;
+    width:250vw;
+  }
+  .title{
+    font-size:70px;
+  }
+  .btn-ghost{
+    top:40vh;
+    img{
+      width:150%;
+    }
+  }
+
+  .cocktails-list{
+    position:absolute;
+    top:60vh;
+    left:60%;
+    // transform: translateX(-50%);
+
+    .cocktail-cards-list{
+      height:550px;
+    }
+  }
+
+  .cocktails-column{
+    // border:2px solid red;
+    display:flex;
+    flex-direction: column;
+    width:100%;
+
+    img{
+      width:300px;
+      height:370px;
+    }
+  }
+  .card{
+    margin-bottom:30px;
+  }
+  .btn-ghost-cocktail{
+    right:35%;
+    bottom:-5%;
+  }
+}
+
+@media screen and (max-width: 613px) {
+  body{
+    width:134%;
+  }
+  .wrapper {
+    // border:1px solid red;
+    width:150vw;
+  }
+  .title{
+    font-size:90px;
+  }
+  .btn-ghost{
+    top:40vh;
+    img{
+      width:150%;
+    }
+  }
+
+  .cocktails-list{
+    position:absolute;
+    top:60vh;
+    left:50%;
+    transform: translateX(-50%);
+
+    .cocktail-cards-list{
+      height:550px;
+    }
+  }
+
+  .cocktails-column{
+    // border:2px solid red;
+    display:flex;
+    flex-direction: column;
+    width:100%;
+
+    img{
+      width:300px;
+      height:370px;
+    }
+  }
+  .card{
+    margin-bottom:30px;
+  }
+  .btn-ghost-cocktail{
+    right:35%;
+    bottom:-5%;
+  }
+}
+@media screen and (max-width: 500px) {
+  .wrapper {
+    // border:1px solid red;
+    width:120vw;
+    margin-left:-10%;
+  }
+  .title{
+    font-size:50px;
+    left:55%;
+  }
+  .btn-ghost{
+    top:30vh;
+
+    img{
+      width:150%;
+    }
+  }
+
+  .cocktails-list{
+    position:absolute;
+    top:50vh;
+    left:53%;
+    // transform: translateX(-50%);
+
+    .cocktail-cards-list{
+      height:550px;
+    }
+  }
+
+  .cocktails-column{
+    // border:2px solid red;
+    display:flex;
+    flex-direction: column;
+    width:100%;
+
+    img{
+      width:300px;
+      height:370px;
+      margin-left:-10px;
+    }
+  }
+  .card{
+    margin-bottom:30px;
+  }
+  .btn-ghost-cocktail{
+    right:25%;
+    bottom:-5%;
+  }
+}
+@media screen and (max-width: 375px) {
+  .wrapper {
+    width:100%;
+    margin-left:-10px;
+  }
+  .title{
+    font-size:40px;
+  }
+  .btn-ghost{
+    top:30vh;
+    img{
+      width:150%;
+    }
+  }
+
+  .cocktails-list{
+    position:absolute;
+    top:45vh;
+    left:50%;
+    transform: translateX(-50%);
+
+    .title{
+      left:20%;
+    }
+    .cocktail-cards-list{
+      height:450px;
+    }
+  }
+
+  .cocktails-column{
+    // border:2px solid red;
+    display:flex;
+    // margin-left:-20px;
+    flex-direction: column;
+    width:100%;
+
+    img{
+      width:200px;
+      height:270px;
+    }
+  }
+  .card{
+    margin-bottom:30px;
+  }
+  .btn-ghost-cocktail{
+    right:20%;
+    bottom:-5%;
+  }
+}
+
+@media screen and (max-width: 320px){
+
+  .wrapper {
+    width:120%;
+    margin-left:20px;
+  }
+  .background_img{
+    width:130%;
+    margin-left:-10%;
+  }
+  .title{
+    font-size:40px;
+  }
+  .btn-ghost{
+    top:30vh;
+    img{
+      width:150%;
+    }
+  }
+
+  .cocktails-list{
+    position:absolute;
+    top:45vh;
+    left:50%;
+    transform: translateX(-50%);
+
+    .title{
+      left:20%;
+    }
+    .cocktail-cards-list{
+      height:450px;
+    }
+  }
+
+  .cocktails-column{
+    // border:2px solid red;
+    display:flex;
+    // margin-left:-20px;
+    flex-direction: column;
+    width:100%;
+
+    img{
+      width:200px;
+      height:270px;
+    }
+  }
+  .card{
+    margin-bottom:30px;
+  }
+  .btn-ghost-cocktail{
+    right:20%;
+    bottom:-5%;
+  }
+}

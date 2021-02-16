@@ -1,4 +1,5 @@
 .navbar-lewagon {
+  // width:100%;
   justify-content: space-between;
   background: white;
 }
@@ -10,3 +11,37 @@
 .navbar-lewagon .navbar-brand img {
   width: 40px;
 }
+
+
+//media q.
+@media screen and (max-width: 960px) {
+  .navbar-lewagon {
+    width:108%;
+  }
+}
+@media screen and (max-width: 768px) {
+  .navbar-lewagon {
+    width:110%;
+  }
+}
+@media screen and (max-width: 613px) {
+  .navbar-lewagon {
+    width:68%;
+  }
+}
+@media screen and (max-width: 500px){
+  .navbar-lewagon {
+    width:76%;
+  }
+}
+@media screen and (max-width: 375px) {
+  .navbar-lewagon {
+    width:93%;
+  }
+}
+@media screen and (max-width: 320px) {
+  .navbar-lewagon {
+    width:120%;
+  }
+}
+

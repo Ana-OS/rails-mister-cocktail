@@ -1,5 +1,5 @@
-<div class="container col-12 wrappper">
-  <div class="container col-12 ">
+<div class="container col-lg-12 col-md-12 col-sm-12 col-12 wrapper">
+  <div class="container col-lg-12 col-md-12 col-sm-12">
     <div class="d-flex justify-content-end ">
       <div>
         <%= form_tag root_path, method: :get do %>
@@ -20,9 +20,9 @@
 
   <div class="container col-10 cocktails-list">
     <h1 class="list-title">All Cocktails</h1>
-    <div class="list d-flex flex-wrap ">
+    <div class="list d-flex flex-wrap cocktails-column">
       <% @cocktails.each do |cocktail|%>
-        <div class="card col-4 cocktail-cards-list" >
+        <div class="card col-lg-4 col-sm-10 cocktail-cards-list" >
           <div class="mt-2 mb-5 cocktail-card">
 
             <div class="cocktail-name">
