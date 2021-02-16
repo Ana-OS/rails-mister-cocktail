@@ -59,7 +59,7 @@
 .user-action-btns{
   position:absolute;
   left:60%;
-  top:60%;
+  top:90%;
 
   .back{
     margin-left:20px;
@@ -69,5 +69,152 @@
   }
   .delete{
     margin-left:100px;
+  }
+}
+
+
+// media q.
+@media screen and (max-width: 960px) {
+  .cocktail-card{
+    margin-top:100px;
+    margin-left:0;
+    img{
+      margin-top:-30%;
+      margin-left:60%;
+    }
+    .ingredients{
+      margin-left:10%;
+    }
+  }
+  .user-action-btns{
+    position:absolute;
+    left:25%;
+    top:10%;
+
+    .back{
+      margin-left:38px;
+    }
+    .edit{
+      margin-left:70px;
+    }
+    .delete{
+      margin-left:90px;
+    }
+  }
+  .dose-container{
+    margin-left:-10%;
+  }
+}
+
+@media screen and (max-width: 768px){
+  .cocktail-card{
+    margin-top:100px;
+    margin-left:0;
+    img{
+      margin-top:-30%;
+      margin-left:20%;
+    }
+  }
+  .user-action-btns{
+    position:absolute;
+    left:20%;
+    top:10%;
+
+    .back{
+      margin-left:38px;
+    }
+    .edit{
+      margin-left:70px;
+    }
+    .delete{
+      margin-left:90px;
+    }
+  }
+  .dose-container{
+    margin-left:-10%;
+  }
+}
+@media screen and (max-width: 500px) {
+  .cocktail-card{
+    margin-top:100px;
+    margin-left:0;
+    img{
+      margin-top:-30%;
+      margin-left:20%;
+    }
+  }
+  .user-action-btns{
+    position:absolute;
+    left:20%;
+    top:10%;
+
+    .back{
+      margin-left:38px;
+    }
+    .edit{
+      margin-left:70px;
+    }
+    .delete{
+      margin-left:90px;
+    }
+  }
+  .dose-container{
+    margin-left:-10%;
+  }
+}
+@media screen and (max-width: 375px) {
+  .cocktail-card{
+    margin-top:100px;
+    margin-left:-10%;
+    img{
+      margin-top:-30%;
+      margin-left:-30%;
+    }
+  }
+  .user-action-btns{
+    position:absolute;
+    left:-6%;
+    top:10%;
+
+    .back{
+      margin-left:38px;
+    }
+    .edit{
+      margin-left:70px;
+    }
+    .delete{
+      margin-left:90px;
+    }
+  }
+  .dose-container{
+    margin-left:-20%;
+  }
+}
+@media screen and (max-width: 320px) {
+  .cocktail-card{
+    margin-top:100px;
+    margin-left:-17%;
+    img{
+      margin-left:-30%;
+      margin-top:-30%;
+    }
+  }
+  .user-action-btns{
+    position:absolute;
+    left:-6%;
+    top:10%;
+
+    .back{
+      margin-left:38px;
+    }
+    .edit{
+      margin-left:70px;
+    }
+    .delete{
+      margin-left:90px;
+    }
+  }
+  .dose-container{
+    margin-left:-20%;
   }
 }

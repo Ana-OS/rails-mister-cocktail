@@ -24,7 +24,6 @@
       <% @cocktails.each do |cocktail|%>
         <div class="card col-lg-4 col-sm-10 cocktail-cards-list" >
           <div class="mt-2 mb-5 cocktail-card">
-
             <div class="cocktail-name">
               <%=link_to cocktail.name, cocktail_path(cocktail)%></div>
              <%= link_to cocktail_path(cocktail) do %>
