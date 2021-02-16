@@ -341,9 +341,16 @@ body{
   }
 }
 @media screen and (max-width: 375px) {
+   body{
+    width:100vw;
+  }
   .wrapper {
-    width:100%;
-    margin-left:-10px;
+    width:100vw;
+    margin-left:20px;
+  }
+  .background_img{
+    width:100vw;
+    margin-left:0;
   }
   .title{
     font-size:40px;
