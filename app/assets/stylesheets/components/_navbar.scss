@@ -21,8 +21,7 @@
 @media screen and (max-width: 960px) {
   .navbar-lewagon {
     width:100%;
-  }
-    border:1px solid yellow;
+  }    // border:1px solid yellow;
 
 }
 
@@ -30,21 +29,19 @@
 @media screen and (max-width: 500px) {
   .navbar-lewagon {
     width:100%;
-    border:1px solid green;
-
+    // border:1px solid green;
   }
 }
 @media screen and (max-width: 375px) {
   .navbar-lewagon {
     width:100%;
-    border:1px solid blue;
+    // border:1px solid blue;
   }
 }
 
 @media screen and (max-width: 320px) {
   .navbar-lewagon {
     width:110%;
-    border:1px solid red;
-
+    // border:1px solid red;
   }
 }

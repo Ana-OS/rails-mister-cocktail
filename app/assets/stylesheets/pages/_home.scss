@@ -449,7 +449,7 @@ body{
   .cocktail-name{
     // border:2px solid red;
     width:220px;
-    margin-left:15%;
+    margin-left:0;
   }
   .cocktails-list{
     position:absolute;
@@ -475,7 +475,7 @@ body{
     .cocktail-cards-list img{
       width:200px;
       height:270px;
-      margin-left:15%;
+      margin-left:10%;
       margin-top:10%;
     }
   }
