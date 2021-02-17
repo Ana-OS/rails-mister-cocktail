@@ -45,8 +45,11 @@ span{
 @media screen and (max-width: 613px) {
   .back-btn{
     position:absolute;
-    bottom:10px;
-    right:100px;
+    bottom:-5%;
+    right:70px;
+  }
+  .cocktail-table{
+    margin-left:10%;
   }
 }
 @media screen and (max-width: 500px) {
@@ -55,12 +58,15 @@ span{
     bottom:-50px;
     right:100px;
   }
+  .cocktail-table{
+    margin-left:10%;
+  }
 }
 @media screen and (max-width: 375px) {
   .back-btn{
     position:absolute;
-    bottom:0;
-    right:30px;
+    bottom:-5%;
+    right:20px;
   }
 
   .cocktail-table{
@@ -71,16 +77,20 @@ span{
 @media screen and (max-width: 320px) {
   .cocktail-wrapper{
     position:relative;
-
+    left:5%;
     img{
       width:250px;
       height:350px;
     }
   }
+
+  .cocktail-table{
+    margin-left:10%;
+  }
   .back-btn{
     position:absolute;
-    bottom:10px;
-    right:70px;
+    bottom:-5%;
+    right:-5%;
   }
 
 }

@@ -4,7 +4,9 @@
 .review-card{
   width:600px;
   height: auto;
-  margin-left:30px;
+  margin-left:20%;
+  transition: ease all .4s;
+
 }
 
 .btn-ghost-review{
@@ -33,4 +35,29 @@
      .back{
 
      }
+}
+
+@media screen and (max-width: 800px) {
+  .review-card{
+    margin-left:10%;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .review-card{
+    width:500px !important;
+    margin-left:3%;
+  }
+}
+@media screen and (max-width: 375px) {
+  .review-card{
+    width:350px !important;
+    margin-left:3%;
+  }
+}
+@media screen and (max-width: 320px) {
+  .review-card{
+    width:350px !important;
+    margin-left:0;
+  }
 }
