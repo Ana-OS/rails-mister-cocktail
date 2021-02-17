@@ -303,7 +303,8 @@ body{
   }
   .btn-ghost{
     top:30vh;
-
+    left:60%;
+    width:200px;
     img{
       width:150%;
     }
@@ -316,19 +317,22 @@ body{
   .cocktails-list{
     position:absolute;
     top:50vh;
-    left:53%;
+    left:60%;
     // transform: translateX(-50%);
-
     .cocktail-cards-list{
       height:550px;
     }
   }
 
+  .list-title{
+    left:50%;
+  }
   .cocktails-column{
-    // border:2px solid red;
+    border:2px solid red;
     display:flex;
     flex-direction: column;
     width:100%;
+    margin-left:-2%;
 
     .cocktail-cards-list img{
       width:200px;
@@ -351,10 +355,10 @@ body{
   }
   .wrapper {
     width:100vw;
-    margin-left:0;
+    margin-left:-10px;
   }
   .background_img{
-    width:100vw;
+    width:110vw;
     margin-left:0;
   }
   .title{
@@ -363,16 +367,21 @@ body{
   }
   .btn-ghost{
     top:30vh;
+    left:60%;
+    width:200px;
     img{
       width:150%;
     }
   }
+  .search{
+    width:100vw;
+  }
 
   .cocktails-list{
-    // border:1px solid red;
+    border:1px solid red;
     position:absolute;
     top:45vh;
-    left:50%;
+    left:60%;
     transform: translateX(-50%);
 
     .title{
@@ -392,7 +401,7 @@ body{
     .cocktail-cards-list img{
       width:200px;
       height:270px;
-      margin-left:24%;
+      margin-left:20%;
       margin-top:17%;
     }
   }
@@ -420,14 +429,20 @@ body{
     margin-left:0;
   }
   .background_img{
-    width:120vw;
+    width:140vw;
     margin-left:-10%;
+  }
+  .search{
+    width:110vw;
   }
   .title{
     font-size:40px;
+    left:60%;
   }
   .btn-ghost{
     top:30vh;
+    left:60%;
+    width:200px;
     img{
       width:150%;
     }
@@ -440,7 +455,7 @@ body{
   .cocktails-list{
     position:absolute;
     top:45vh;
-    left:50%;
+    left:65%;
     transform: translateX(-50%);
 
     .title{
@@ -454,14 +469,14 @@ body{
   .cocktails-column{
     // border:2px solid red;
     display:flex;
-    // margin-left:-20px;
+    margin-left:0;
     flex-direction: column;
     width:100%;
 
     .cocktail-cards-list img{
       width:200px;
       height:270px;
-      margin-left:17%;
+      margin-left:15%;
       margin-top:10%;
     }
   }
